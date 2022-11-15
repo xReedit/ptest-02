@@ -4321,7 +4321,7 @@ label.error {
   .divice-content img {
 	width: 280px;
     height: 198px;
-    inline-size: fit-content;
+    inline-size: auto;
   }
 
   .divice-content .price {
