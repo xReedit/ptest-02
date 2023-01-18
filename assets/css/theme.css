@@ -147,8 +147,155 @@ Updated	 :	10.22.2018
 		background:#1F65DB;
 	}
 
+	/*.div-img-thanks {
+		padding: 20px 0px 50px 0px;
+	}*/
+
 }
 
 .theme-pro .section.gradiant-background{
 	background: #ecf4fd;
 }
+
+.div-img-thanks {
+	width: auto;
+/*    padding: 50px 0px 50px 0px;*/
+}
+
+.div-img-thanks img {
+	border-radius: 10px;
+	width: 100%;
+	max-width: 600px;
+}
+
+
+.post-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    align-items: start;
+    margin: 0 auto;    
+    transition: all 0.2s ease;
+}
+
+.post-preview {
+    text-align: left;   
+    border-radius: 5px;
+    border: solid 1px rgb(219, 219, 219);
+    margin: 15px;
+    background: #fff;
+    box-shadow: 0px 2px 7px 1px rgb(0 0 0 / 10%);    
+    height: fit-content;
+}
+
+
+.post-preview .post-media-body {
+    padding: 0px;    
+}
+
+.post-preview .post-media-body img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0px 0px;    
+    transition: all 0.2s ease;
+}
+
+.post-preview .post-media-body img:hover {        
+    filter: contrast(100%) brightness(90%);
+}
+
+.post-preview .title:hover {        
+    text-decoration: underline;
+    color: #43439b !important;    
+}
+
+.post-preview :hover{
+    cursor: pointer;      
+}
+
+
+.post-preview .post-content-body {
+    padding-top: 5px;
+    padding: 30px;    
+}
+
+.post-preview .post-content-body p{
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.post-preview .post-content-body .title {
+    font-weight: 700;
+    font-size: 20px;
+/*    line-height: 32px;*/
+	line-height: 1.2;
+    padding-bottom: 5px;    
+    color: #3d3d3d;
+    font-family: 'Nunito', sans-serif !important;
+    transition: all 0.2s ease;
+}
+
+/* .post-preview .post-content-body .title:hover {
+    cursor: pointer;  
+    text-decoration: underline;     
+} */
+
+
+.post-preview .post-meta {
+    background-color: #f7f7f7;
+    border-top: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+}
+
+.post-preview .post-meta p {
+    margin: 0;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.text-secondary {
+	color: grey;
+}
+
+.m-0{
+	margin: 0px;
+}
+
+
+.fw-100 {font-weight: 100;}
+.fw-200 {font-weight: 200;}
+.fw-300 {font-weight: 300;}
+.fw-400 {font-weight: 400;}
+.fw-500 {font-weight: 500;}
+.fw-600 {font-weight: 600;}
+.fw-700 {font-weight: 700;}
+.fw-800 {font-weight: 800;}
+.fw-900 {font-weight: 900;}
+
+.fs-1 {font-size: 1px;}
+.fs-2 {font-size: 2px;}
+.fs-3 {font-size: 3px;}
+.fs-4 {font-size: 4px;}
+.fs-5 {font-size: 5px;}
+.fs-6 {font-size: 6px;}
+.fs-7 {font-size: 7px;}
+.fs-8 {font-size: 8px;}
+.fs-9 {font-size: 9px;}
+.fs-10 {font-size: 10px;}
+.fs-11 {font-size: 11px;}
+.fs-12 {font-size: 12px;}
+.fs-13 {font-size: 13px;}
+.fs-14 {font-size: 14px;}
+.fs-15 {font-size: 15px;}
+.fs-16 {font-size: 16px;}
+.fs-17 {font-size: 17px;}
+.fs-18 {font-size: 18px;}
+.fs-19 {font-size: 19px;}
+.fs-20 {font-size: 20px;}
+.fs-21 {font-size: 21px;}
+.fs-22 {font-size: 22px;}
+.fs-23 {font-size: 23px;}
+.fs-24 {font-size: 24px;}
+.fs-25 {font-size: 25px;}
+.fs-26 {font-size: 26px;}

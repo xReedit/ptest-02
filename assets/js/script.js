@@ -324,3 +324,5 @@ function openTab(tabName) {
 	// element,find('.video').style.visibility = "visible";
 	// visibility: visible; animation-duration: 0.5s; animation-name: fadeInRight;
   }
+
+ 
