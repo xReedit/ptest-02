@@ -176,10 +176,23 @@
 								</h2>
 								<!-- <p class="lead wow fadeInUp fs-20" data-wow-duration=".5s" data-wow-delay=".3s">Gestiona tu negocio de manera fácil y practica, hablamos tu idioma. Software hecho por restauranteros para restauranteros.</p> -->
 								<p class="lead wow fadeInUp fs-20" data-wow-duration=".5s" data-wow-delay=".3s">Súmate a la nueva generación de restaurantes, gestiona y controla todo desde único sistema moderno, facil y fluido.</p>
-								<ul class="buttons">
-									<li><a href="./demo-registro.html" class="button wow fadeInUp nav-item" data-wow-duration=".5s" data-wow-delay=".6s">Ver Demo</a></li>
-									<!-- <li><a href="./consulta.comprobante.html" class="button button-border button-transparent wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s">Habla con un asesor</a></li> -->
-								</ul>
+
+								<div class="div-boton-principal">
+									<ul class="buttons">
+										<li><a href="./demo-registro.html" class="button wow fadeInUp nav-item" data-wow-duration=".5s" data-wow-delay=".6s">Ver Demo</a></li>
+										<!-- <li><a href="./consulta.comprobante.html" class="button button-border button-transparent wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".9s">Habla con un asesor</a></li> -->
+									</ul>
+
+									<!-- nuevo servicio -->
+									<div style="margin-top: -50px; padding-left: 50px; display: flex; align-items: center;">			
+										<div>
+											<p class="fs-12 fw-900 m-0 m-badge primary">Nueva Heramienta</p>
+											<br>
+											<p class="fs-15 fw-900 m-0 m-badge warning">ChatBot + IA</p>
+										</div>																	
+										<img src="./images/rob2.png">
+									</div>
+								</div>
 							</div>
 						</div>						
 						<div class="col-md-6 header-video">								
@@ -237,18 +250,69 @@
 		
 		<!-- Start .about-section  -->
 		<div id="services">
-
 			<div class="container tab-fix">
-				<div class="section-head text-center">
+				<div class="section-head text-center" style="padding: 60px 0 50px; border-bottom: 1px solid #c5c5c5;">
 					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
+						<!-- <div class="col-md-8 col-md-offset-2">
 							<h2 class="heading">Solución <span>Completa</span></h2>
 							<img src="./images/softaware_restaurante.png" alt="software-restaurante" title="software-restaurante">
+						</div> -->
+
+						<div class="col-md-8 col-md-offset-2">
+							<h2 class="heading">Solución <span>Completa</span></h2>
+							<div class="content-services">
+								<div class="item-services">
+									<p class="title">Gestión y Control</p>
+									<img src="./images/services-control.png" alt="gestion-cotrol-restaurante" title="gestion-cotrol-restaurante">
+								</div>
+
+								<div class="item-services">
+									<p class="title">Facturación Ilimitada</p>
+									<img src="./images/services-facturacion-1.png" alt="facturación-electronica-ilimitada" title="facturación-electronica-ilimitada">
+								</div>
+
+								<div class="item-services">
+									<p class="title">Mozo Virtual</p>
+									<img src="./images/services-mozo-virtual-1.png" alt="mozo-virtual-restaurant" title="mozo-virtual-restaurant">
+								</div>
+
+								<div class="item-services">
+									<p class="title">App Mozo</p>
+									<img src="./images/services-app-mozo.png" alt="aplicacion-mozo" title="aplicacion-mozo">
+								</div>
+
+								<div class="item-services">
+									<p class="title">App Repartidor</p>
+									<img src="./images/services-app-repartidor.png" alt="app-repartidor" title="app-repartidor">
+								</div>
+
+								<div class="item-services">
+									<p class="title">App Delivery</p>
+									<img src="./images/services-app-delivery-1.png" alt="aplicacion-delivery" title="aplicacion-delivery">
+								</div>
+
+								<div class="item-services">
+									<p class="title">Tienda en Linea</p>
+									<img src="./images/services-tienda-linea.png" alt="tienda-en-linea" title="tienda-en-linea">
+								</div>
+
+								<div class="item-services">
+									<p class="title">Recursos Humanos</p>
+									<img src="./images/services-rr-hh.png" alt="gestion-recursos-humanos" title="gestion-recursos-humanos">
+								</div>
+
+								<div class="item-services">
+									<p class="title">Chat Bot + IA</p>
+									<img src="./images/services-chat-bot.png" alt="chatbot-whatsapp" title="chatbot-whatsapp">
+								</div>
+
+							</div>
 						</div>
 						<br>
 					</div>
 				</div><!-- .section-head -->
 			</div>
+			<br><br><br>
 
 			<div class="container tab-fix">
 				<div class="text-center">
@@ -281,6 +345,15 @@
 										<div>
 											<img src="./images/app-delivery.png" alt="app-delivery" title="app-delivery">
 											<p class="heading">App Delivery</p>
+										</div>										
+									</label>								
+								  </div>
+								  <div class="tab" onclick="openTab('app-chat-bot')">									
+									<input type="radio" name="css-tabs" id="tab-4" class="tab-switch">
+									<label for="tab-4" class="tab-label">	
+										<div>
+											<img src="./images/001-chat.png" alt="app-chat-bot" title="app-chat-bot">
+											<p class="heading">ChatBot + IA</p>
 										</div>										
 									</label>								
 								  </div>
@@ -444,6 +517,48 @@
 							<div class="video wow fadeInRight video-tab" data-wow-duration=".5s">
 								<img src="images/video-3.jpg" alt="about-video" title="about-video"/>
 								<a href="https://www.youtube.com/watch?v=qcSteagea0w" class="video-play" data-effect="mfp-3d-unfold"><i class="fa fa-play"></i></a>
+								<!-- <div class="video-overlay gradiant-background"></div> -->
+								<!-- <img class="img-ini" src="images/im8-2.png" alt="header screen" /> -->
+							</div>
+						</div>
+					</div><!-- .row -->
+				</div><!-- .container  -->
+			</div><!-- .contact-section  -->
+
+
+			<!-- chatbot -->
+			<div class="about-section section content-tab" id="app-chat-bot" style="display:none">
+				<div class="container">
+					<div class="text-center pb-50">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+								<h2 class="heading">Papaya <span>ChatBot + IA</span></h2>
+								<p class="heading"><span class="fw-600">Automatiza tu atención.</span> Ahorra tiempo y recursos genera más ventas automatizando conversaciones con IA en <span>WhatsApp</span></p>	
+							</div>
+						</div>
+					</div>
+					<div class="row tab-center mobile-center">
+						<div class="col-md-6">
+							<div class="txt-entry">
+								<h3>Sin Esperas: Respuestas al Instante por WhatsApp con el Chatbot.</h3>							
+								<p>
+									Te presentamos nuestro chatbot con IA para atención al cliente vía WhatsApp, una herramienta esencial para tu restaurante. Automatiza la atención al cliente, ofreciendo respuestas rápidas y precisas las 24/7, mejorando la experiencia del cliente y optimizando el servicio.</p>
+								
+								<p><strong>Inteligencia Artificial al Servicio de tu negocio.</strong>
+									Este asistente virtual agiliza la toma de pedidos, envía la carta al instante, responde a consultas detalladas sobre platos y horarios, y reenvía comprobantes que su cliente solicite. La potencia de la inteligencia artificial asegura respuestas rápidas y precisas, mejorando la experiencia del cliente y contribuyendo al crecimiento continuo de tu negocio.</p>				
+											
+									<p>
+										<strong>Súmate a la nueva generación de restaurantes</strong>
+									</p>
+								<div class="wow fadeInLeft" data-wow-duration=".5s">
+									<img src="images/services-chat-bot.png" alt="chatbot-whatsapp" />
+								</div>
+							</div>
+						</div><!-- .col -->
+						<div class="col-md-6">
+							<div class="video wow fadeInRight video-tab" data-wow-duration=".5s">
+								<img src="images/bot-wsp.png" alt="about-video" title="about-video"/>
+								<!-- <a href="https://www.youtube.com/watch?v=qcSteagea0w" class="video-play" data-effect="mfp-3d-unfold"><i class="fa fa-play"></i></a> -->
 								<!-- <div class="video-overlay gradiant-background"></div> -->
 								<!-- <img class="img-ini" src="images/im8-2.png" alt="header screen" /> -->
 							</div>
