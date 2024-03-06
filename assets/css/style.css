@@ -4403,3 +4403,17 @@ label.error {
     align-items: center;
     flex-wrap: wrap;
   }
+
+  @media (max-width: 768px) {
+  .div-boton-principal {
+    flex-direction: column;
+  }
+  .div-boton-principal .buttons {
+    z-index: 2;
+    position: relative;
+  }
+  .div-boton-principal > div {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
